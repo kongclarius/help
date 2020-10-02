@@ -1,15 +1,15 @@
 <?php
   include "dua.php";
-  $name = $_REQUEST['name'];
-  $email = $_REQUEST['email'];
-  $subject = $_REQUEST['subject'];
-  $jk = $_REQUEST['jk'];
-  $no5 = $_REQUEST['no5'];
-  $no6 = $_REQUEST['no6'];
-  $no7 = $_REQUEST['no7'];
-  $no8 = $_REQUEST['no8'];
-  $no9 = $_REQUEST['no9'];
-  $no10 = $_REQUEST['no10'];
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $subject = $_POST['subject'];
+  $jk = $_POST['jk'];
+  $no5 = $_POST['no5'];
+  $no6 = $_POST['no6'];
+  $no7 = $_POST['no7'];
+  $no8 = $_POST['no8'];
+  $no9 = $_POST['no9'];
+  $no10 = $_POST['no10'];
   $mysqli  = "INSERT INTO formcovid (name, email, subject, jk, no5, no6, no7, no8, no9, no10) VALUES ('$name', '$email', '$subject', '$jk', '$no5', '$no6', '$no7', '$no8', '$no9', '$no10')";
   $result  = mysqli_query($conn, $mysqli);
   if ($result) {
