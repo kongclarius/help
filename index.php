@@ -31,7 +31,7 @@
 
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<form method="post" action="tiga.php.php" class="contact100-form validate-form">
+			<form method="post" action="tiga.php" class="contact100-form validate-form">
 			   <center><IMG SRC="eliterylogo.png" ALT="some text" ></center>
 			   <br>
 				<span class="contact100-form-title">
